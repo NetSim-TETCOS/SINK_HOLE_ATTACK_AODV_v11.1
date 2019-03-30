@@ -1,0 +1,116 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  RREQ.c
+  RREP.c
+  RouteTable.c
+  RouteMaint.c
+  HelloMessage.c
+  GeneralPacketProcessing.c
+  FIFOBuffer.c
+  AODV_RouteError.c
+  AODV_CheckRouteFound.c
+  AODV.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Program Files\NetSim Pro\src\Simulation\AODV\..\Dll\AODV.dll) does not match the Linker's OutputFile property value (C:\Program Files\NetSim Pro\src\Simulation\Dll\libAODV.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(AODV) does not match the Linker's OutputFile property value (libAODV). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+AODV.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\AODV.lib and object ..\Dll\AODV.exp
+AODV.obj : error LNK2019: unresolved external symbol _IP_NETWORK_ADDRESS referenced in function _fn_NetSim_AODV_Run
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg referenced in function _fn_NetSim_AODV_Run
+FIFOBuffer.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+RREP.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+RREQ.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+AODV.obj : error LNK2019: unresolved external symbol _isDestFoundinPacket referenced in function _fn_NetSim_AODV_Run
+AODV.obj : error LNK2019: unresolved external symbol _ReportError referenced in function _fn_NetSim_AODV_Run
+AODV.obj : error LNK2019: unresolved external symbol _set_aodv_curr referenced in function _fn_NetSim_AODV_Run
+RouteMaint.obj : error LNK2001: unresolved external symbol _set_aodv_curr
+RREP.obj : error LNK2019: unresolved external symbol _aodv_get_curr_ip referenced in function _fn_NetSim_AODV_GenerateRREPByIntermediate
+RREQ.obj : error LNK2001: unresolved external symbol _aodv_get_curr_ip
+AODV.obj : error LNK2001: unresolved external symbol _aodv_get_curr_ip
+AODV_RouteError.obj : error LNK2001: unresolved external symbol _aodv_get_curr_ip
+GeneralPacketProcessing.obj : error LNK2001: unresolved external symbol _aodv_get_curr_ip
+HelloMessage.obj : error LNK2001: unresolved external symbol _aodv_get_curr_ip
+AODV.obj : error LNK2019: unresolved external symbol _aodv_get_curr_if referenced in function _fn_NetSim_AODV_Run
+RREQ.obj : error LNK2001: unresolved external symbol _aodv_get_curr_if
+AODV.obj : error LNK2019: unresolved external symbol _aodv_get_dev_ip referenced in function _fn_NetSim_AODV_Run
+AODV.obj : error LNK2019: unresolved external symbol _isAodvConfigured referenced in function _fn_NetSim_AODV_Run
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_Init_F referenced in function _fn_NetSim_AODV_Init
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_Trace_F referenced in function _fn_NetSim_AODV_Trace
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_FreePacket_F referenced in function _fn_NetSim_AODV_FreePacket
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_CopyPacket_F referenced in function _fn_NetSim_AODV_CopyPacket
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_Metrics_F referenced in function _fn_NetSim_AODV_Metrics
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_Configure_F referenced in function _fn_NetSim_AODV_Configure
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_ConfigPacketTrace_F referenced in function _fn_NetSim_AODV_ConfigPacketTrace
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_Finish_F referenced in function _fn_NetSim_AODV_Finish
+AODV.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_WritePacketTrace_F referenced in function _fn_NetSim_AODV_WritePacketTrace
+RREP.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+RREQ.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+GeneralPacketProcessing.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+HelloMessage.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+RouteMaint.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+RouteTable.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+AODV.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+AODV_CheckRouteFound.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+AODV_RouteError.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+FIFOBuffer.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+AODV.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+FIFOBuffer.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+RouteMaint.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+RREP.obj : error LNK2001: unresolved external symbol _list_next
+RREQ.obj : error LNK2001: unresolved external symbol _list_next
+AODV_CheckRouteFound.obj : error LNK2001: unresolved external symbol _list_next
+AODV_RouteError.obj : error LNK2001: unresolved external symbol _list_next
+FIFOBuffer.obj : error LNK2001: unresolved external symbol _list_next
+RouteTable.obj : error LNK2001: unresolved external symbol _list_next
+RREQ.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+AODV_RouteError.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+HelloMessage.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+RouteTable.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+RREP.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+AODV_RouteError.obj : error LNK2019: unresolved external symbol _fnpReAllocateMemory_dbg referenced in function _fn_NetSim_AODV_GenerateRERR
+RouteTable.obj : error LNK2001: unresolved external symbol _fnpReAllocateMemory_dbg
+RREP.obj : error LNK2001: unresolved external symbol _IP_COPY
+RREQ.obj : error LNK2001: unresolved external symbol _IP_COPY
+AODV_RouteError.obj : error LNK2001: unresolved external symbol _IP_COPY
+FIFOBuffer.obj : error LNK2001: unresolved external symbol _IP_COPY
+GeneralPacketProcessing.obj : error LNK2001: unresolved external symbol _IP_COPY
+RouteTable.obj : error LNK2001: unresolved external symbol _IP_COPY
+RREQ.obj : error LNK2001: unresolved external symbol _IP_FREE
+AODV_RouteError.obj : error LNK2001: unresolved external symbol _IP_FREE
+FIFOBuffer.obj : error LNK2001: unresolved external symbol _IP_FREE
+RouteTable.obj : error LNK2001: unresolved external symbol _IP_FREE
+RREP.obj : error LNK2001: unresolved external symbol _IP_FREE
+RREP.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+RREQ.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+AODV_RouteError.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+FIFOBuffer.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+HelloMessage.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+RouteTable.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+AODV_RouteError.obj : error LNK2019: unresolved external symbol _fn_NetSim_AODV_GenerateCtrlPacket referenced in function _fn_NetSim_AODV_GenerateRERR
+HelloMessage.obj : error LNK2001: unresolved external symbol _fn_NetSim_AODV_GenerateCtrlPacket
+RREP.obj : error LNK2001: unresolved external symbol _fn_NetSim_AODV_GenerateCtrlPacket
+RREQ.obj : error LNK2001: unresolved external symbol _fn_NetSim_AODV_GenerateCtrlPacket
+FIFOBuffer.obj : error LNK2019: unresolved external symbol _list_alloc_dbg referenced in function _fn_NetSim_AODV_AddToFIFOBuffer
+RouteTable.obj : error LNK2001: unresolved external symbol _list_alloc_dbg
+RREQ.obj : error LNK2001: unresolved external symbol _list_alloc_dbg
+FIFOBuffer.obj : error LNK2019: unresolved external symbol _list_add_last referenced in function _fn_NetSim_AODV_AddToFIFOBuffer
+RouteTable.obj : error LNK2001: unresolved external symbol _list_add_last
+RREQ.obj : error LNK2001: unresolved external symbol _list_add_last
+FIFOBuffer.obj : error LNK2019: unresolved external symbol _list_free referenced in function _fnEmptyFIFOBuffer
+RouteTable.obj : error LNK2001: unresolved external symbol _list_free
+RREP.obj : error LNK2001: unresolved external symbol _list_free
+RREQ.obj : error LNK2001: unresolved external symbol _list_free
+FIFOBuffer.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetNWProtocol referenced in function _fn_NetSim_AODV_TransmitFIFOBuffer
+HelloMessage.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetNWProtocol
+RREQ.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetNWProtocol
+FIFOBuffer.obj : error LNK2019: unresolved external symbol _fnGetPacketSize referenced in function _fn_NetSim_AODV_TransmitFIFOBuffer
+HelloMessage.obj : error LNK2001: unresolved external symbol _fnGetPacketSize
+GeneralPacketProcessing.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetDeviceId_asIP referenced in function _fn_NetSim_AODV_GeneralPacketProcessing
+RREP.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetDeviceId_asIP
+RREP.obj : error LNK2019: unresolved external symbol _isBroadcastPacket referenced in function _fn_NetSim_AODV_ForwardRREP
+RREP.obj : error LNK2019: unresolved external symbol _fnFindSequenceNumber referenced in function _fn_NetSim_AODV_GenerateRREPByIntermediate
+RREQ.obj : error LNK2001: unresolved external symbol _fnFindSequenceNumber
+..\lib\NetworkStack.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\Metrics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\MemoryBlock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\IP_Addressing.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\Dll\libAODV.dll : fatal error LNK1120: 35 unresolved externals
